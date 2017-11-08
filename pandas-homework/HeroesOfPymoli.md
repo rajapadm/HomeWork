@@ -1,7 +1,13 @@
 
+# Observed Trends
+1. Total male players are more compared to other gender. We could most purchases are made from male.
+2. Compared to total purchases, players from age 10-23 have made more purchases than other age groups.
+3. Also top spenders are Undirrala66, Saedue76, Mindimnya67, Haellysu29 and Eoda93
+4. Betrayal - Whisper of Grieving Widows, Arcane Gem, Retribution Axe, Trickster and Serenity are most purchased items.
+5. But high revenue items are Retribution Axe, Betrayal, Whisper of Grieving Widows, Arcane Gem, Trickster and Serenity
+
 
 ```python
-import os
 import json
 import pandas as pd
 ```
@@ -11,6 +17,8 @@ import pandas as pd
 data_df=pd.read_json('purchase_data.json')
 data_df2=pd.read_json('purchase_data2.json')
 ```
+
+# Total Players
 
 
 ```python
@@ -56,6 +64,8 @@ pd.DataFrame({"Total Players":[players]})
 </div>
 
 
+
+# Purchasing Analysis (Total)
 
 
 ```python
@@ -118,6 +128,8 @@ breakdown
 </div>
 
 
+
+# Gender Demographics
 
 
 ```python
@@ -189,6 +201,8 @@ gender_df
 </div>
 
 
+
+# Purchasing Analysis (Gender)
 
 
 ```python
@@ -297,6 +311,8 @@ norm
 
 
 
+# Age Demographics
+
 
 ```python
 bins = [10, 14, 19, 23, 27, 31, 35, 39, 43, 45] 
@@ -387,15 +403,15 @@ final_bin.sort_index()
       <th>14-19</th>
       <td>$2.88</td>
       <td>2.88</td>
-      <td>265</td>
-      <td>$763.08</td>
+      <td>266</td>
+      <td>$765.31</td>
     </tr>
     <tr>
       <th>19-23</th>
-      <td>$3.03</td>
-      <td>3.03</td>
-      <td>168</td>
-      <td>$508.66</td>
+      <td>$3.02</td>
+      <td>3.02</td>
+      <td>169</td>
+      <td>$510.02</td>
     </tr>
     <tr>
       <th>23-27</th>
@@ -437,6 +453,8 @@ final_bin.sort_index()
 </div>
 
 
+
+# Top Spenders
 
 
 ```python
@@ -522,6 +540,8 @@ player_dataframe
 </div>
 
 
+
+# Top 5 purchased Items
 
 
 ```python
@@ -615,6 +635,8 @@ item_dataframe
 </div>
 
 
+
+# Top 5 revenue items
 
 
 ```python
