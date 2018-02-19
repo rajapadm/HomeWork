@@ -1,0 +1,26 @@
+html,body {height:100%;width:100%;}
+.jumbotron 
+{
+    background-color:inherit;
+    background-image:url("UFO.jpg") ;
+    background-size: 100% 100%;
+    
+}
+.jumbotron h1{
+    color:whitesmoke;
+    /* position: relative; */
+    /* padding-left: 0px; */
+    padding-top: 95px;
+    /* padding-bottom: 30px;; */
+}
+.jumbotron p{
+    color:whitesmoke;
+}
+.container-full-bg {width:90%;
+    height:80%;
+    max-width:100%;
+    background-position:center;
+    /* background-size:cover; */
+    background-position: top;
+    
+}
